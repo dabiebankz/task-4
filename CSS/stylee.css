@@ -8,6 +8,12 @@ body{
     height: 300px;
     border-radius: 50%;
 }
+.bio-detail {
+    font-weight: 300;
+    color: #999999;
+    font-size: 20px;
+    line-height: 1.8;
+}
 .main-content {
     margin :0 auto;
     width: 70%;
@@ -33,6 +39,19 @@ body{
 .about-title,
 .about-content {
     width: 50%
+}
+.big-about-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #f7d7c8;
+    font-family: Merriweather, serif !important;
+}
+.sample-header{
+    margin-bottom: 0;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 1.125rem;
+}
 }
 .text-bold{
     font-size: 25px;
@@ -77,13 +96,22 @@ body{
     background-color: #000000;
     color: #f7d7c8;
     margin: 60px auto;
-    
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.learn-more-btn:hover {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: #000000;
+    cursor: pointer;
 }
 .writeup-area{
     display: flex;
     gap: 10%;
     justify-content: space-between;
     width: 100;
+    padding: 20px;
+    margin-top: 30px;
 }
 .writeup-area, 
 .page-about{
@@ -124,7 +152,7 @@ body{
 .line-ok{
     border: #f7d7c8;
     width: 20%;
-    margin: 0 auto;
+    margin: 10px auto;
     border-style: solid;
     position: relative;
     box-sizing: border-box;
@@ -145,4 +173,8 @@ body{
 .bio{
     font-weight: 900;
     font-size: 80px;
+}
+.info-section{
+    margin: 30px;
+    padding: 20px;
 }
