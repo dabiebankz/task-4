@@ -176,3 +176,24 @@ body{
     margin: 30px;
     padding: 20px;
 }
+
+.end-text{
+    background-color: rgb(61, 60, 60);
+    width: 100%;
+    height: 300px;
+}
+.sample{
+    text-align: center;
+    padding: 40px;
+    font-size: 15px;
+}
+.web{
+    text-align: center;
+    font-size: 10px;
+}
+.end-text .sample{
+    margin: 70px 0;
+}
+.end .web{
+    margin: 40px 0;
+}
